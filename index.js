@@ -1,7 +1,7 @@
 'use strict';
 
 const {StyleSheet, Platform} = require('react-native');
-const deepDiffer = require('react-native/lib/deepDiffer');
+const deepDiffer = require('react-native/Libraries/Utilities/differ/deepDiffer.js');
 
 var _themes = {};
 var _proxies = {};
